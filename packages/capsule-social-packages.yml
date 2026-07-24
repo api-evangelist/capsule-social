@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/capsulesocial
+notes: >-
+  First-party libraries published by the Capsule Social (Blogchain) GitHub org.
+  These are open-source building blocks of the web3 Blogchain dApp (a Vue
+  frontend + NEAR smart contracts + IPFS) rather than API client SDKs for a REST
+  API — Capsule Social never shipped a hosted REST API. Both packages are
+  published under the capsulesocial org and resolve to github.com/capsulesocial
+  repositories. The org has been inactive since October 2023.
+packages:
+  - language: typescript
+    registry: npm
+    name: "@capsulesocial/ipfs-wrapper"
+    version: 1.1.0
+    url: https://www.npmjs.com/package/@capsulesocial/ipfs-wrapper
+    repository: https://github.com/capsulesocial/ipfs-wrapper
+    install: npm install @capsulesocial/ipfs-wrapper
+    description: Blogchain's IPFS wrapper for speeding up web3 frontend loading.
+    license: GPL-3.0-only
+    official: true
+  - language: javascript
+    registry: npm
+    name: capsule-config
+    version: 1.2.3
+    url: https://www.npmjs.com/package/capsule-config
+    repository: https://github.com/capsulesocial/capsule-config
+    install: npm install capsule-config
+    description: Shared assets/config between capsule-vue and capsule-authordashboard.
+    license: ISC
+    official: true
