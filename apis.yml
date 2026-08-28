@@ -27,6 +27,18 @@ x-status-note: >-
   Product/org inactive since ~2023-10; capsule.social domain re-registered by an
   unrelated company. Do not harvest well-known/domain-security artifacts from
   capsule.social — they belong to the new owner, not this entity.
+deliveryModel:
+  model: self-hosted
+  license: AGPL-3.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
